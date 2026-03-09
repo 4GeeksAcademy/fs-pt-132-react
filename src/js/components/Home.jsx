@@ -23,7 +23,7 @@ const Home = () => {
 			</p>
 			<componenteRoto />
 			<h1 className="text-center mt-5">Hello Pepe!</h1>
-			<p className="miColor" >
+			<p className="miColor">
 				<img src={rigoImage} />
 			</p>
 			<a href="#" className="btn btn-success">

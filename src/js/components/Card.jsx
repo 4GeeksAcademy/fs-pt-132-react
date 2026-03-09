@@ -5,9 +5,15 @@ export const Card = () => {
     const generateRandomNumber = () => Math.floor(Math.random() * 100)
     let age = 15;
     const randomNumber = generateRandomNumber()
+
+    const cardStyles = {width: '18rem'}
+
     return (
         <div className="col-sm-12 col-md-6 col-lg-4">
-            <div className="card">
+            <div className="card" 
+            style={cardStyles} 
+            //style={{width: '18rem'}}
+            >
                 <div className="card-head">
                     <h2>Titulo de tarjeta</h2>
                 </div>
